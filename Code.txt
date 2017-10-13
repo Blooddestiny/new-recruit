@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="urf-8">
+<title>招新界面</title>
+<embed src="./music.mp3" hidden="true" autostart="true" loop="true">  		<!--添加音乐-->
+<link rel="stylesheet" href="Flat-UI-master/dist/css/flat-ui.css" />
+<link rel="stylesheet" href="Flat-UI-master/dist/css/flat-ui..min.css" />
+<link rel="stylesheet" href="Flat-UI-master/dist/css/vendor/bootstrap/css/bootstrap.min.csss" />
+<link rel="shortcut" href="Flat-UI-master/img/favicon.ico" />
+<link rel="stylesheet" href="bootstrap-3.3.0-dist/dist/css/bootstrap-theme.min.css" />
+</head>
+
+<body>
+	
+	<div class="row">
+		<div align="center">
+			<img src="images/1.png" alt="清泽心雨" width="30%" usemap="#img" /><br />
+			<map id="img" name="img">
+				<area shape="rect" href="https://baike.baidu.com/item/%E6%B8%85%E6%B3%BD%E5%BF%83%E9%9B%A8/2457147?fr=aladdin" 
+				coords="0,0,570,260" alt="清泽心雨" target="_blank" />
+			</map>
+		</div>
+	</div>
+	<p style="text-align:center">想了解清泽，请点击图片</p>
+	<form class="form-inline">
+		<div class="form-group" style="text-align:center">
+			<label for="Name">姓名</label>
+			<input type="text" class="form-control" id="Name" placeholder="姓名"> &nbsp;&nbsp;&nbsp;
+			<label for="Num">学号</label>
+			<input type="text" class="form-control" id="Num" placeholder="学号">
+		</div>
+		
+		<div class="form-group" style="text-align:center">
+			<label for="Char">专业</label>
+			<input type="text" class="form-control" id="Char" placeholder="专业"> &nbsp;&nbsp;&nbsp;
+			<label for="Tel">手机</label>
+			<input type="text" class="form-control" id="Tel" placeholder="手机">
+		</div>
+		
+		<div class="radio" style="text-align:center">
+			<label for="sex">性别</label>
+			<br />
+			<label>
+				<input type="radio" name="sex" id="optionsRadios1" value="option1" >
+					男			
+				<input type="radio" name="sex" id="optionsRadios2" value="option2">
+					女
+			</label>
+		</div>
+
+		<div style="text-align:center">
+			<label>个人介绍</label><br />
+			<textarea class="form-control" rows="30">请输入你的个人介绍</textarea>
+		</div>
+		
+		<div style="text-align:center">
+			<label>意向部门</label>
+			<br />
+			<select class="form-control">
+				<option value="网络安全部">网络安全部</option>
+				<option value="技术开发部">技术开发部</option>
+				<option value="视觉设计部">视觉设计部</option>
+				<option value="公关策划部">公关策划部</option>
+				<option value="网站办公室">网站办公室</option>
+			</select>			
+		</div> <br />
+		
+		<div style="text-align:center">
+			    <button type="submit" class="btn btn-primary" >提交</button>
+		</div>
+	</form>
+</body>
+</html>
